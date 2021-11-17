@@ -218,6 +218,8 @@
     <Content Include="Images\UniManageApp-logos_white.png" />
     <Content Include="Logout.aspx" />
     <Content Include="Module_Add.aspx" />
+    <Content Include="POE_SQL.sql" />
+    <Content Include="ReadMe.txt" />
     <Content Include="Record_Hours.aspx" />
     <Content Include="Scripts\Styling.css" />
     <Content Include="Semester.aspx" />
