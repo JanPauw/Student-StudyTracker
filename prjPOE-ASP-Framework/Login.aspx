@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Login" MasterPageFile="~/Site.Master" Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="prjPOE_ASP_Framework.Login" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <div style="text-align: center; margin: 10% auto; width: 25%">
+    <div id="dropshadow" style="text-align: center; margin: 10% auto; width: 25%">
         <asp:Image Width="100%" runat="server" ImageUrl="~/Images/UniManageApp-logos_black-cropped.png" />
         <asp:Table CssClass="aspTable" runat="server" ID="tbl">
             <asp:TableRow CssClass="aspTblRow">
@@ -36,6 +36,13 @@
     </div>
 
     <style>
+        #dropshadow {
+            border: 2px solid #084e62;
+            padding: 10px;
+            box-shadow: 5px 10px 8px #888888;
+            border-radius: 5px;
+        }
+
         .aspTextBox {
             border-radius: 15px;
             padding: 5px 10px 5px 10px;

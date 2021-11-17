@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Semester_Info.aspx.cs" Inherits="prjPOE_ASP_Framework.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div style="margin: 15vh auto; width: 30%; text-align: center;">
+    <div id="dropshadow" style="margin: 15vh auto; width: 30%; text-align: center;">
         <h1 style="color: #084E62;">Semester Info</h1>
         <div style="width: 80%; margin-left: 10%; margin-right: 10%">
             <asp:Table ID="tblSemLength" runat="server" Width="100%">
@@ -42,6 +42,13 @@
     </div>
 
     <style>
+        #dropshadow {
+            border: 2px solid #084e62;
+            padding: 10px;
+            box-shadow: 5px 10px 8px #888888;
+            border-radius: 5px;
+        }
+
         .aspHeadCell {
             font-weight: bold;
             font-size: 18px;

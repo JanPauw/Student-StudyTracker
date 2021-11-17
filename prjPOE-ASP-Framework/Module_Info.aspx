@@ -4,10 +4,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div style="width: 100%; margin-top: 15vh;">
-
-
-        <div runat="server" id="divChart" style="float: left; width: 50%; text-align: center; border: 2px solid #084e62; border-radius: 5px;">
+    <div class="dropshadow" style="width: 100%; margin-top: 15vh; padding:10px;">
+        <div runat="server" id="divChart" style="display:inline-block; width: 50%; text-align: center; border: 2px solid #084e62; border-radius: 5px;">
             <h1 style="color: #084E62;">Study History</h1>
             <asp:Chart Width="500" Height="404" ID="StudyGraph" runat="server" AlternateText="No Recorded Study Hours Found!" LineWidth="0.5">
                 <Series>
@@ -83,6 +81,20 @@
         </div>
     </div>
     <style>
+        .dropshadow {
+            border: 2px solid #084e62;
+            padding: 10px;
+            box-shadow: 5px 10px 8px #888888;
+            border-radius: 5px;
+        }
+
+        #dropshadow {
+            border: 2px solid #084e62;
+            padding: 10px;
+            box-shadow: 5px 10px 8px #888888;
+            border-radius: 5px;
+        }
+
         .aspHeadCell {
             font-weight: bold;
             font-size: 18px;

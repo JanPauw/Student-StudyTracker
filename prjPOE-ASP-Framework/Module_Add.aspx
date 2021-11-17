@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Add a Module" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Module_Add.aspx.cs" Inherits="prjPOE_ASP_Framework.Module_Add" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div style="margin: 15vh auto; width: 30%; text-align: center;">
+    <div id="dropshadow" style="margin: 15vh auto; width: 30%; text-align: center;">
         <h1 style="color: #084E62;">Add Module</h1>
         <div style="width: 80%; margin-left: 10%; margin-right: 10%">
             <asp:Table runat="server" ID="tblAddModule" Width="100%">
@@ -67,6 +67,13 @@
     </div>
 
     <style>
+        #dropshadow {
+            border: 2px solid #084e62;
+            padding: 10px;
+            box-shadow: 5px 10px 8px #888888;
+            border-radius: 5px;
+        }
+
         .aspHeadCell {
             font-weight: bold;
             font-size: 18px;

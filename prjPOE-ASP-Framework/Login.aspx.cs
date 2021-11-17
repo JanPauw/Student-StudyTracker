@@ -19,7 +19,7 @@ namespace prjPOE_ASP_Framework
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
@@ -96,8 +96,6 @@ namespace prjPOE_ASP_Framework
         {
             string empNum = edtUsername.Text;
             string empPassword = EncryptString(EncryptionKey, edtPassword.Text);
-
-            alert(empPassword);
 
             db.cs.Close();
             Student attempt = new Student();
