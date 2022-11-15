@@ -3,7 +3,7 @@ Web app developed for students to keep track of their modules and their study ti
 
 The app was created with ASP.NET Framework and uses ADO.NET to communicate with a self-hosted SQL server using docker.
 
-[Current Version Live Demo](https://studytracker.azurewebsites.net)
+<a href="https://studytracker.azurewebsites.net" target="_blank">Current Version Live Demo</a>
 
 ## Features
 - Students can register and login.
